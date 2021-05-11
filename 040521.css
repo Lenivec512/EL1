@@ -1,0 +1,40 @@
+body {
+	background-color: #696969;
+}
+.first {
+	color: white;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+}
+.second {
+	width: 30%;
+	margin: auto;
+	text-align: center;
+}
+.third {
+	text-align: center;
+	margin-top: 13px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	border: solid #32CD32 3px;
+	border-radius: 25px;
+	background-color: #32CD32;
+	padding: 10px 20px; 
+}
+input {
+	border-radius: 25px;
+	border: solid white 1px;
+	background-color: #696969;
+	margin-bottom: 5px;
+	padding: 12px 15px;
+	outline: none;
+}
+input::placeholder {
+	color: white;
+}
+input:focus {
+	border: solid #3CB371;
+}
